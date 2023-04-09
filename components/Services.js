@@ -14,6 +14,11 @@ const Services = () => {
       id: "11",
       image: "https://sv1.picz.in.th/images/2023/04/09/mAb6PW.png",
       name: "Polish"
+    },
+    {
+      id: "12",
+      image: "https://sv1.picz.in.th/images/2023/04/09/mPWucy.png",
+      name: "Vacuum"
     }
     
    

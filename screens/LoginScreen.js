@@ -133,6 +133,23 @@ const LoginScreen = () => {
             </Text>
           </Pressable>
 
+          <Pressable
+          onPress={() => navigation.navigate("LoginPhone")}
+            style={{
+              width: 200,
+              backgroundColor: "#318CE7",
+              padding: 15,
+              borderRadius: 7,
+              marginTop: 50,
+              marginLeft: "auto",
+              marginRight: "auto",
+            }}
+          >
+            <Text style={{ fontSize: 18, textAlign: "center", color: "white" }}>
+              Phone OTP
+            </Text>
+      </Pressable>
+
           <Pressable onPress={() => navigation.navigate("Register")} style={{ marginTop: 20 }}>
             <Text
               style={{
@@ -145,6 +162,8 @@ const LoginScreen = () => {
               Don't have a account? Sign Up
             </Text>
           </Pressable>
+
+        
         </View>
       </KeyboardAvoidingView>
       )}

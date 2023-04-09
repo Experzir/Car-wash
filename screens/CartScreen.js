@@ -27,13 +27,16 @@ const CartScreen = () => {
     .reduce((curr, prev) => curr + prev, 0);
   const navigation = useNavigation();
   const userUid = auth.currentUser.uid;
+  const userPhone = auth.currentUser.phoneNumber;
   const dispatch = useDispatch();
   const placeOrder = async () => {
     navigation.navigate("Order");
     dispatch(cleanCart());
+    //,`${userPhone}`
     await setDoc(
       doc(db, "users", `${userUid}`),
       {
+        //userPhone: `${userPhone}`,
         orders: { ...cart },
         pickUpDetails: route.params,
       },

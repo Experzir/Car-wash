@@ -9,6 +9,8 @@ import LoginScreen from './screens/LoginScreen';
 import RegisterScreen from './screens/RegisterScreen';
 import ProfileScreen from './screens/ProfileScreen';
 import OrderScreen from './screens/OrderScreen';
+import Login from './screens/Login';
+
 
 const StackNavigator = () => {
     const Stack = createNativeStackNavigator();
@@ -22,6 +24,9 @@ const StackNavigator = () => {
         <Stack.Screen name="Register" component={RegisterScreen} options={{headerShown:false}}/>
         <Stack.Screen name="Profile" component={ProfileScreen} options={{headerShown:false}}/>
         <Stack.Screen name="Order" component={OrderScreen} options={{headerShown:false}}/>
+        <Stack.Screen name="LoginPhone" component={Login} option={{headerShown:false}}/>
+
+        
       </Stack.Navigator>
     </NavigationContainer>
   )

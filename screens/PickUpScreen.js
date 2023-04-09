@@ -47,27 +47,39 @@ const PickUpScreen = () => {
   const times = [
     {
       id: "0",
-      time: "11:00 PM",
+      time: "10:00 PM",
     },
     {
       id: "1",
+      time: "11:00 PM",
+    },
+    {
+      id: "2",
       time: "12:00 PM",
     },
     {
-      id: "2",
+      id: "3",
       time: "1:00 PM",
     },
     {
-      id: "2",
+      id: "4",
       time: "2:00 PM",
     },
     {
-      id: "4",
+      id: "5",
       time: "3:00 PM",
     },
     {
-      id: "5",
+      id: "6",
       time: "4:00 PM",
+    },
+    {
+      id: "7",
+      time: "5:00 PM",
+    },
+    {
+      id: "8",
+      time: "6:00 PM",
     },
   ];
   const navigation = useNavigation();

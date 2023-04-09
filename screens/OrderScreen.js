@@ -16,9 +16,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { Ionicons } from "@expo/vector-icons";
 
 
-
-
-
 const OrderScreen = () => {
 const navigation = useNavigation();
 
