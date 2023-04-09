@@ -153,7 +153,7 @@ const CartScreen = () => {
                   </Pressable>
 
                   <Text style={{ fontSize: 16, fontWeight: "500" }}>
-                    ${item.price * item.quantity}
+                    {item.price * item.quantity}฿
                   </Text>
                 </View>
               ))}
@@ -184,7 +184,7 @@ const CartScreen = () => {
                     Item Total
                   </Text>
                   <Text style={{ fontSize: 18, fontWeight: "400" }}>
-                    ₹{total}
+                    {total}฿
                   </Text>
                 </View>
 
@@ -322,7 +322,7 @@ const CartScreen = () => {
                     To Pay
                   </Text>
                   <Text style={{ fontSize: 18, fontWeight: "bold" }}>
-                    {total + 95}
+                    {total}฿
                   </Text>
                 </View>
               </View>
@@ -347,7 +347,7 @@ const CartScreen = () => {
         >
           <View>
             <Text style={{ fontSize: 17, fontWeight: "600", color: "white" }}>
-              {cart.length} items | $ {total}
+              {cart.length} items |  {total} ฿
             </Text>
             <Text
               style={{

@@ -4,12 +4,12 @@ import {getAuth} from "firebase/auth";
 import {getFirestore} from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC6Irh0Xs_Jrt_6IOUM2mz6vxZm3q52HoY",
-  authDomain: "laundry-application-7f4c7.firebaseapp.com",
-  projectId: "laundry-application-7f4c7",
-  storageBucket: "laundry-application-7f4c7.appspot.com",
-  messagingSenderId: "571088013444",
-  appId: "1:571088013444:web:6a5e8ded1f44846994dad1"
+  apiKey: "AIzaSyCTWTl7kehX5XrnS5tavx7e0IPoMlSdwho",
+  authDomain: "mobile-car-project.firebaseapp.com",
+  projectId: "mobile-car-project",
+  storageBucket: "mobile-car-project.appspot.com",
+  messagingSenderId: "163232417314",
+  appId: "1:163232417314:web:5c7b581c72437b39ef2c7b"
 };
 
 

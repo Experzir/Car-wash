@@ -115,7 +115,7 @@ const HomeScreen = () => {
       image: "https://cdn-icons-png.flaticon.com/128/4643/4643574.png",
       name: "shirt",
       quantity: 0,
-      price: 10,
+      price: 80,
     },
     {
       id: "11",
@@ -179,7 +179,7 @@ const HomeScreen = () => {
             <Image
               style={{ width: 40, height: 40, borderRadius: 20 }}
               source={{
-                uri: "https://lh3.googleusercontent.com/ogw/AAEL6sh_yqHq38z35QMy5Fnb8ZIxicdxCIVM9PeBD2j-=s64-c-mo",
+                uri: "https://sv1.picz.in.th/images/2023/04/09/mAqhF1.png",
               }}
             />
           </Pressable>
@@ -230,7 +230,7 @@ const HomeScreen = () => {
             }}
           >
             <View>
-              <Text style={{fontSize:17,fontWeight:"600",color:"white"}}>{cart.length} items |  $ {total}</Text>
+              <Text style={{fontSize:17,fontWeight:"600",color:"white"}}>{cart.length} items | {total} ฿</Text>
               <Text style={{fontSize:15,fontWeight:"400",color:"white",marginVertical:6}}>extra charges might apply</Text>
             </View>
     
